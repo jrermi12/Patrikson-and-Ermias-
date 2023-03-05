@@ -37,3 +37,19 @@ nav ul {
 li {
     list-style: none;
 }
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+.grid{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.description{
+    flex-direction: column;
+    height: 125px;
+}
